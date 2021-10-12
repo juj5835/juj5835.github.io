@@ -1,0 +1,4 @@
+*{margin: 0;padding: 0;font-size: inherit;font-weight: normal;font-style: normal;color: inherit;box-sizing: border-box;}
+*::before
+ul,li,ol {list-style: none;}
+
