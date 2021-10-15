@@ -6,7 +6,7 @@
 #header nav {margin-left:auto ; padding: 0 15px;}
 #header nav>ul {display: flex;line-height: 100px;}
 #header nav>ul>li {padding: 0 15px;}
-#header .search {padding: 15px;line-height: 100px;}
+#header .search {padding:0 15px;line-height: 100px;}
 #header .search i {font-size: 30px;}
 
 #visual {position: relative;height: 600px;background: url(../img/main_visual01.jpg) no-repeat center center/cover}
