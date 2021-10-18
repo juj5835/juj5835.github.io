@@ -7,10 +7,10 @@ $(function(){
         dots:true,
     });  
 
-    $('#visual .main_btn i. xi-angle-left-min').on('click', function(){
+    $('#visual .main_btn i.xi-angle-left-min').on('click', function(){
         $('.main_slider').slick('slickPrev');
     });    
-    $('#visual .main_btn i. xi-angle-right-min').on('click', function(){
+    $('#visual .main_btn i.xi-angle-right-min').on('click', function(){
         $('.main_slider').slick('slickNext');
     });
 
