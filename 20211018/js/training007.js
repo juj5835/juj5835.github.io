@@ -7,10 +7,10 @@ $(function(){
         dots:true,
     });  
 
-    $('#visual .main_btn i. xi-arrow-left').on('click', function(){
+    $('#visual .main_btn i. xi-arrow-left-min').on('click', function(){
         $('.main_slider').slick('slickPrev');
     });    
-    $('#visual .main_btn i. xi-arrow-right').on('click', function(){
+    $('#visual .main_btn i. xi-arrow-right-min').on('click', function(){
         $('.main_slider').slick('slickNext');
     });
 
@@ -21,4 +21,4 @@ $(function(){
     });
 
    
-})
+});
