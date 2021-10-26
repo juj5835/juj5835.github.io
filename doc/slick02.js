@@ -1,3 +1,4 @@
+
 $(function(){
 
 //메인슬라이드
@@ -16,9 +17,9 @@ $('.pr_slider').slick({
 });
 
 $('#content01 .btn i.xi-arrow-left').on('click',function(){
-    $('.pr_slider').silk('slickPrev');
+    $('.pr_slider').slick('slickPrev');
 });
 $('#content01 .btn i.xi-arrow-right').on('click',function(){
-    $('.pr_slider').silk('slickNext');
+    $('.pr_slider').slick('slickNext');
 });
 })
