@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+
+#wrap{}
+#header {text-align: center; }
+
+#header .container {width:1200px;margin: 0 auto; padding: 15px 15px;}
+#header nav {margin-left:auto;}
+#header nav>ul {display: flex;}
+#header nav>ul>li>a {display: block;padding:0 20px;line-height: 100px;}
+#header i {line-height: 100px; }
+
+
+#visual {position: relative; height:780px;background: url(../무지/무지_mainvisual01.jpg) no-repeat center center/cover;padding: 200px 0 0 0;}
+#visual .container {display: flex; width: 1200px;margin: 0 auto;text-align:center;color:#444;}
+#visual .container h2 {font-family: 'Noto Serif KR', serif;font-size: 40px;}
+#visual .container h2>span{font-size:40px;}
+
+
+
+
