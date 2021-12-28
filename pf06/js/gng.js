@@ -34,4 +34,17 @@ $(function(){
         $(this).toggleClass('on');
     })
 
+    $('.bf_sl').slick({
+        arrows:false,
+        slidesToShow:1,
+        slidesToScroll: 1,
+        dots:true,
+    });
+    $('.event02 .btn i.xi-angle-left').on('click',function(){
+        $('.bf_sl').slick('slickPrev');
+    });
+    $('.event02 .btn i.xi-angle-right').on('click',function(){
+        $('.bf_sl').slick('slickNext');
+    });
+
 });    
