@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+
+#wrap{}
+#header {}
+
+#header .container {width:1200px;margin: 0 auto; display: flex;justify-content: space-between; padding: 20px 0;border-bottom:1px solid#ddd ;}
+#header .container h1 img {max-width: 200px;}
+#header .container .my {display: flex;line-height: 40px;}
+#header .container .my a {padding-left: 20px;font-size: 18px;}
+
+#header nav {display:flex; width:1200px;margin: 0 auto;font-size: 15px;line-height: 50px;justify-content: center;}
+#header nav>ul {display:flex;}
+#header nav>ul>li>a {display: block;padding:0 30px;}
+
+
+#visual {position: relative; height:700px;background: url(../img/무지_mainvisual01.jpg) no-repeat center center/cover;padding: 160px 0 0 0;}
+#visual .container {width: 1200px;margin: 0 auto;text-align:center;color:#444;}
+#visual .container h2 {font-size: 36px;}
+#visual .container h2>span {font-family: 'Noto Serif KR', serif; font-size:36px;}
+#visual .container a {display: block; font-size: 16px;padding: 55px 0 0 0;}
+
+
+#customer {padding:150px 0;position: relative;width: 1200px;margin:0 auto;}
+#customer .container {}
+#customer h2 {font-family: 'Noto Serif KR', serif; font-size:28px;margin-bottom: 17px;color:#444;padding:0 15px;}
+#customer p{font-family:'Noto Serif KR', serif; font-size:14px;margin-bottom: 30px;color:#444;padding:0 15px;}
+#customer .container figure {padding:0 10px;}
+#customer .container figure strong {display:block;}
+#customer .container figure .top {display:flex; justify-content: space-between;}
+#customer .container figure .name {margin-bottom:5px;}
+#customer .container figure .explain {color:#7f0119;margin-bottom:5px;font-size: 13px;}
+#customer .container figure .explain>span {color:rgb(0, 0, 119);}
+
+
+#customer .container img {width:100%;margin-bottom:10px;}
+
+#customer .btn i.xi-angle-left{margin-left: -630px;}
+#customer .btn i.xi-angle-right{margin-left: 630px;}
+#customer .btn i{position: absolute;top: 52%;left: 50%;transform: translate(-50%,-50%);font-weight: 200;font-size: 18px;}
+#customer .slick-dots {display: none;}
+#customer .slick-dots li button {display:none;}
+
+/* -----------------------???----------------------------- */
+
+#ddd {background:url(../img/bg.png)no-repeat center center/cover;padding: 100px 0;}
+#event .container {display:flex;width: 1200px;margin:0 auto;margin-bottom: 30px;}
+#event h2 {width: 1200px; margin:0 auto;font-family: 'Noto Serif KR', serif; font-size:28px;margin-bottom: 30px; color:#444;}
+#event span {color: #7f0119;font-family: 'Noto Sans KR', sans-serif;font-weight: 800;}
+#event figure {position:relative;width: 1200px;margin: 0 auto;height: 400px;background: url(../img/event01.jpg)no-repeat center center/cover;}
+#event .txt {position:absolute;top:60%;left:55px;}
+#event .txt strong {display:block; font-size:20px;margin-bottom: 10px;line-height: 1.5;}
+#event .txt strong:after {content:"";display:block;width:31px;height:2px;background:#333;margin:20px 0;}
+
+#customer02 {position: relative;width: 1200px;margin: 0 auto;}
+#customer02 .container figure {padding:0 10px;}
+#customer02 .container figure strong {display:block;}
+#customer02 .container figure .name {margin-bottom:5px;}
+#customer02 .container figure .explain {color: #7f0119;margin-bottom:5px;font-size: 13px;}
+#customer02 .container figure .explain>span {color:rgb(0, 0, 119);}
+#customer02 .container img {width:100%;margin-bottom:10px;}
+#customer02 .btn i.xi-angle-left{margin-left: -630px;}
+#customer02 .btn i.xi-angle-right{margin-left: 630px;}
+#customer02 .btn i{position: absolute;top: 40%;left: 50%;transform: translate(-50%,-50%);font-weight: 200;font-size: 18px;}
+#customer02 .slick-dots {display: none;}
+#customer02 .slick-dots li button {display:none;}
+
+#ddd .more {width: 1200px;margin:0 auto;padding: 70px 0 50px 0;} 
+
+.sp {position: relative;width: 1200px;margin: 0 auto; padding: 100px 0;}
+.sp h2 {font-weight: 800;font-size:28px;margin-bottom: 30px;color:#444;padding:0 15px;}
+.sp .container {display: flex;}
+.sp .container strong {display: block;font-weight: 500;padding: 7px 0;font-size: 18px;}
+
+.sp .container figure {padding:0 15px;flex: 1;}
+.sp .container figure img {min-width: 270px;}
+
+#footer {background: #999;color: #fff;padding: 50px 0;text-align: center;}
+#footer .sns i {font-size: 25px;padding:0 10px ;margin-bottom: 10px;}
+#footer .container {width:1200px;margin:0 auto;line-height:30px;padding:0 15px;}
+#footer .bt {display:flex;justify-content: center;margin-bottom: 10px;}
+#footer .bt li  {position:relative;}
+#footer .bt li a {padding:0 20px;}
+#footer .bt li~li:before {content:"|";position:absolute;top:0;left:0;}
+
