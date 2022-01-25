@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'MapoFlowerIsland';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.header {display: flex;justify-content: space-between;position:fixed;top: 0;left: 0; padding:0 2rem; 
+    min-width: 1900px;line-height: 6rem;color: #fff;width: 100%; z-index: 999;}
+.header.on {background:rgba(0, 0, 0, 0.3) ;} 
+.header h1 {width: 12rem;}     
+
+.header .right {font-size:20px;font-weight:300;display: flex;} 
+.header .right a {padding: 0 20px;} 
+
+
+
+.visual {position: relative;}
+.visual:after {content:"";display: block;width: 100%;height: 100%;background: rgba(0, 0, 0, 0.2);position: absolute;top: 0;left: 0;}
+
+.visual .m_visual {height:100vh;background: url(./img/m02.jpg)center center/cover;}
+
+.visual .slogan {position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%)
+;width:100%;color: #fff;text-align: center;z-index:999;}
+.visual .slogan h2 {font-size:70px;line-height: 1.5;font-family:'MapoFlowerIsland';}
+
+
+.content {padding:100px 0;text-align: center;color: #777;}
+.content strong {display: block; font-size: 32px;margin-bottom:20px;font-weight: 600;}
+.content h3 {font-size: 17px;margin-bottom:40px;}
+.content .container {display: flex;flex-flow: row wrap; width: 1100px;margin: 0 auto;}
+
+.content figure {width: 50%;padding: 0 0.75rem;}
+.content figure img {max-width: 100%;}
+.content figure .case {margin-bottom: 20px;overflow: hidden;display: block;}
+
+.content figure h3 {font-size:15px;margin-bottom: 0.5rem;}  
+.content figure strong {display: block;font-size: 1.25rem;font-weight: 500;margin-bottom: 1rem;}
+
+.content figure .case:hover img {transform: scale(1.2);transition: 2s;}
+.content figure .case:hover {}
+
+
+
+.content02  {text-align: center;color: #777;width: 1300px ;margin: 0 auto;position: relative;padding-top: 50px;}
+.content02 strong {display: block; font-size: 32px;margin-bottom:20px;font-weight: 600;}
+.content02 h3 {font-size: 17px;margin-bottom:40px;}
+.content02 .s_1 img {width:100%;}
+.content02 .s_1 {width:1200px;margin: 0 auto;margin-bottom: 100px;}
+
+.content02 .s_1 figure {height:500px;margin:0 15px;}
+.content02 .s_1_item01 {background:url(./img/room01.jpg) no-repeat center center/cover;}
+.content02 .s_1_item02 {background:url(./img/room02.jpg) no-repeat center center/cover;}
+.content02 .s_1_item03 {background:url(./img/room04.jpg) no-repeat center center/cover;}
+.content02 .s_1_item04 {background:url(./img/room03.jpg) no-repeat center center/cover;}
+.content02 .s_1_item05 {background:url(./img/room02.jpg) no-repeat center center/cover;}
+
+.content02 .s_1_text {padding:50px;color:#fff;}
+.content02 .s_1_text h3 {font-size:30px;font-weight:800;}
+.content02 .s_1_text p {font-size:15px;font-weight:300;padding:20px 0 40px 0;line-height:22px;}
+.content02 .s_1_text a {font-size:16px;font-weight:300;padding:2px 30px;border:1px solid rgba(255, 255, 255, 0.787);transition:0.3s;}
+.content02 .s_1_text a:hover {background:#333;color:#fff;border:1px solid #333;}
+
+.content02 .btn i.xi-angle-left{margin-left: -650px;}
+.content02 .btn i.xi-angle-right{margin-left: 650px;}
+.content02 .btn i{position: absolute;top: 60%;left: 50%;transform: translate(-50%,-50%);font-size: 20px;}
+
+
+footer {padding: 3rem 0;text-align: center;font-size: 0.65rem;font-weight: 300;color: #fff;background: rgb(214, 209, 192);}
+
+footer .container {width: 1200px;margin: 0 auto;display: flex;justify-content: space-between}
+footer .container .logo img {max-width: 200px;}
+footer .container .txt {line-height: 1.3;text-align: right;font-size: 15px;}
+ 
+
+
