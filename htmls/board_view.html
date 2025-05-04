@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>view</title>
+<link href="css/common.css" rel="stylesheet" type="text/css">
+<link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+<script src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
+</head>
+<body>
+	<div class="service_header">
+		<div class="logo">
+			<img alt="" src="img/logo.png">
+		</div>
+		<div class="right">
+			<div class="search_box">
+				<input id="search_input" type="text">
+			   <button type="submit">
+				   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.9"><path d="M15.8999 14.5L19.0862 17.7187" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="11.4302" cy="10.4819" r="5.35" stroke="currentColor" stroke-width="1.8"></circle></g></svg>
+			   </button>
+			</div>
+			<div class="service_util">
+			   <a href="" class="btn_organization">
+				   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="36px" height="36px" viewBox="0 0 40 40" style="overflow:visible;enable-background:new 0 0 40 40;" xml:space="preserve"><style type="text/css">.st0{fill:none;}</style><g><path d="M27.49,22.43h-0.23c-0.31-1.79-1.87-3.16-3.74-3.16H21v-1.69h0.16c1.65,0,3-1.35,3-3v-2.32c0-1.65-1.35-3-3-3h-2.32c-1.65,0-3,1.35-3,3v2.32c0,1.65,1.35,3,3,3H19v1.69h-2.51c-1.88,0-3.44,1.37-3.74,3.16h-0.23c-1.65,0-3,1.35-3,3v2.32c0,1.65,1.35,3,3,3h2.32c1.65,0,3-1.35,3-3v-2.32c0-1.65-1.35-3-3-3H14.8c0.26-0.68,0.92-1.16,1.69-1.16h7.03c0.77,0,1.42,0.48,1.69,1.16h-0.04c-1.65,0-3,1.35-3,3v2.32c0,1.65,1.35,3,3,3h2.32c1.65,0,3-1.35,3-3v-2.32C30.49,23.77,29.14,22.43,27.49,22.43z M17.84,14.57v-2.32c0-0.55,0.45-1,1-1h2.32c0.55,0,1,0.45,1,1v2.32c0,0.55-0.45,1-1,1h-2.32C18.29,15.57,17.84,15.13,17.84,14.57z M15.84,25.43v2.32c0,0.55-0.45,1-1,1h-2.32c-0.55,0-1-0.45-1-1v-2.32c0-0.55,0.45-1,1-1h2.32C15.39,24.43,15.84,24.87,15.84,25.43z M28.49,27.75c0,0.55-0.45,1-1,1h-2.32c-0.55,0-1-0.45-1-1v-2.32c0-0.55,0.45-1,1-1h2.32c0.55,0,1,0.45,1,1V27.75z"/><rect class="st0" width="40" height="40"/></g></svg>
+				   <span class="label_tooltip">조직도</span>
+			   </a>
+			   <a href="" class="btn_notice new">
+				   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="36px" height="36px" viewBox="0 0 40 40" style="overflow:visible;enable-background:new 0 0 40 40;" xml:space="preserve"><style type="text/css">.st0{fill:none;}</style><g><path d="M21.5,27.75c0,0.83-0.67,1.5-1.5,1.5s-1.5-0.67-1.5-1.5h-2c0,1.93,1.57,3.5,3.5,3.5s3.5-1.57,3.5-3.5H21.5z"/><path d="M27.55,26.45h-15.1c-0.88,0-1.64-0.36-2.07-0.98c-0.4-0.57-0.48-1.32-0.22-2.04l1.23-3.38l0.01-3.85c0.2-4.18,3.98-7.46,8.6-7.46c4.7,0,8.48,3.34,8.61,7.6l0,3.72l1.24,3.38c0.26,0.72,0.18,1.45-0.21,2.03C29.2,26.09,28.44,26.45,27.55,26.45z M20,10.75c-3.56,0-6.46,2.45-6.61,5.57l-0.01,0.12l0,3.97l-1.35,3.71c-0.04,0.11-0.04,0.18-0.02,0.21c0.04,0.05,0.18,0.12,0.44,0.12h15.1c0.29,0,0.42-0.09,0.44-0.12c0.01-0.02,0.02-0.08-0.02-0.19l-1.36-3.71l0-4.04C26.51,13.29,23.55,10.75,20,10.75z"/><rect class="st0" width="40" height="40"/></g></svg>
+				   <span class="label_tooltip">알림</span>
+			   </a>
+			   <div class="notice_menu" style="display: none;">
+				   <p class="title">알림</p>
+				   <div class="noticeList_wrap">
+					   <ul class="noticeList scroll_area">
+						   <li>
+							   <a href="" target="_blank"><p class="txt">[부산] 2025년 해외진출 베이스먼트 참가 기업 모집 공고(일본)</p><span class="date">2025-05-02 20:16:11</span></a>
+						   </li>
+						   <li>
+							   <a href="" target="_blank"><p class="txt">라이언님이 춘식이님의 댓글에 대댓글을 달았습니다.</p><span class="date">2025-05-02 20:16:11</span></a>
+						   </li>
+						   <li>
+							   <a href="" target="_blank"><p class="txt">어피치님이 춘식이님의 게시글에 댓글을 달았습니다.</p><span class="date">2025-05-02 20:16:11</span></a>
+						   </li>
+						   <li>
+							   <a href="" target="_blank"><p class="txt">어피치님이 춘식이님의 게시글에 댓글을 달았습니다.</p><span class="date">2025-05-02 20:16:11</span></a>
+						   </li>
+					   </ul>
+				   </div>
+			   </div>
+			   <div class="profile_area">
+				   <a href="#"><div><img src="" alt=""></div></a>
+			   </div>
+			   <div class="login_user_menu" style="display: none;">
+				   <a href="마이페이지" target="_blank" class="user_info">
+					   <div class="user_thumb">
+						   <img src="./img/thumb_profile.svg" alt="image" style="opacity: 1;">
+					   </div>
+					   <div class="user_profile">
+						   <span class="user_name">라이언</span>
+						   <span class="user_grade grade_g">GOLD</span>
+					   </div>
+				   </a>
+				   <div class="menuList_wrap">
+					   <ul class="menuList">
+						   <li><a class="" href="mypage" target="_self">마이페이지</a></li>
+						   <li><a class="" href="question" target="_self">1:1문의</a></li>
+						   <li><a class="" href="logout" target="_self">로그아웃</a></li>
+					   </ul>
+				   </div>
+			  </div>
+			</div>
+		</div>
+	</div>
+ 	<div class="service_lnb">
+ 		<button type="button" class="btn_core">글쓰기</button>
+ 		<ul class="menu">
+ 			<li class="menu_item selected">공지사항</li>
+ 			<li class="menu_item">자유게시판</li>
+ 			<li class="menu_item">대나무숲</li>
+ 		</ul>
+ 	</div>
+ 	<div class="content">
+ 		<div class="board_view">
+	 		<div class="board_title">
+	 			복지포인트 소멸 안내
+	 		</div>
+	 		<div class="board_info">
+				<a href="작성자 프로필로 이동" target="_blank" class="user_info">
+					<div class="user_thumb">
+						<img src="./img/thumb_profile.svg" alt="image" style="opacity: 1;">
+					</div>
+					<div class="user_profile">
+						<span class="user_name">라이언</span>
+						<span class="user_grade grade_g">GOLD</span>
+					</div>
+				</a>
+				<div class="date">
+					<span class="creation_date">작성일 : 2025-05-02 20:16:11</span>
+					<span class="update_date"> | 최근수정 : 2025-05-03 10:00:00</span>
+				</div>			
+	 		</div>
+			<div class="file_attach_view">
+				<div class="file_infor">
+					<span class="file_tit">
+						<span>첨부 파일 <em>2</em>개</span>
+						<span class="file_size">(4.0MB)</span>
+					</span> 
+					<button type="button" class="btn_downloadAll">모두 저장</button> 
+				</div>
+				<div class="file_wrap" style="display: block;">
+					<ul class="file_list">
+						<li>
+							<span class="file_name">image003.png</span>
+							<span class="file_size">3.98MB</span>
+							<button type="button" class="btn_download"></button>
+						</li>
+						<li>
+							<span class="file_name">image002.png</span>
+							<span class="file_size">3.98MB</span>
+							<button type="button" class="btn_download"></button>
+						</li>
+					</ul>
+				</div>  	
+			</div>
+	 		<div class="board_content">
+	 			당월 말까지 복지포인트를 사용하지 않으면 소멸됨을 알려드립니다.
+	 			<br>
+	 			모두 확인하시어 사용하도록 당부드립니다
+	 			<br>
+	 			당월 말까지 복지포인트를 사용하지 않으면 소멸됨을 알려드립니다.
+	 			<br>
+	 			모두 확인하시어 사용하도록 당부드립니다
+	 			<br>
+	 		</div>
+			<div class="btn_box">
+				<button type="button">수정</button> 
+				<button type="button">삭제</button>
+			</div>
+			<div class="comment_area">
+				<ul class="comment_list">
+					<li>
+						<a href="작성자 프로필로 이동" target="_blank" class="user_info">
+							<div class="user_thumb">
+								<img src="./img/thumb_profile.svg" alt="image" style="opacity: 1;">
+							</div>
+							<div class="user_profile">
+								<span class="user_name">라이언</span>
+							</div>
+						</a>
+						<div class="date_wrap">
+							<span class="creation_date">작성일 : 2025-05-02 14:05:00</span>
+							<span class="update_date"> | 최근수정 : 2025-05-03 10:00:00</span>
+							
+						</div>
+						<p class="comment_content">
+							복지포인트 아직 다 안쓴사람이 있다?????
+						</p>
+						<div class="btn_box_small">
+							<div class="left">
+								<button type="button">답글</button> 
+							</div>
+							<div class="right">
+								<button type="button">수정</button> 
+								<button type="button">삭제</button> 
+								<button type="button">신고</button>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="작성자 프로필로 이동" target="_blank" class="user_info">
+							<div class="user_thumb">
+								<img src="./img/thumb_profile.svg" alt="image" style="opacity: 1;">
+							</div>
+							<div class="user_profile">
+								<span class="user_name">라이언</span>
+							</div>
+						</a>
+						<div class="date_wrap">
+							<span class="creation_date">작성일 : 2025-05-02 14:05:00</span>
+							<span class="update_date"> | 최근수정 : 2025-05-03 10:00:00</span>
+						</div>
+						<p class="comment_content">
+							안녕하세요 긴 댓글 예시입니다 안녕하세요 긴 댓글 예시입니다 안녕하세요 긴 댓글 예시입니다 안녕하세요 긴 댓글 예시입니다 안녕하세요 긴 댓글 예시입니다 안녕하세요 긴 댓글 예시입니다 안녕하세요 긴 댓글 예시입니다 안녕하세요 긴 댓글 예시입니다 
+						</p>
+						<div class="btn_box_small">
+							<div class="left">
+								<button type="button">답글</button> 
+							</div>
+							<div class="right">
+								<button type="button">수정</button> 
+								<button type="button">삭제</button> 
+								<button type="button">신고</button>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div class="comment_write_area">
+					<a href="작성자 프로필로 이동" target="_blank" class="user_info">
+						<div class="user_thumb">
+							<img src="./img/thumb_profile.svg" alt="image" style="opacity: 1;">
+						</div>
+						<div class="user_profile">
+							<span class="user_name">라이언</span>
+						</div>
+					</a>
+					<div id="comment-editor"></div>
+					<button type="submit">댓글 등록</button>
+				</div>
+			</div>
+ 		</div>
+ 		<div class="btn_box">
+ 			<button type="button" class="btn_task">목록으로</button>
+ 			<button type="button" class="btn_task">맨위로</button>
+ 		</div>
+ 		
+ 	</div>
+
+</body>
+<script>
+	// Quill 에디터 초기화
+	const quill = new Quill('#comment-editor', {
+	  placeholder: '댓글을 입력하세요...',
+	  modules: {
+		toolbar: false
+	  }
+	});
+  
+  </script>
+</html>
